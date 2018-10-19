@@ -15,8 +15,3 @@ var recipes = {}
   delete object.key;
   return object;
 }
-function deleteFromObjectByKey(object, key) {
-  var object = Object.assign({}, object);
-  delete object.key;
-  return object
-}
