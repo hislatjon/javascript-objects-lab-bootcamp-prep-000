@@ -7,7 +7,7 @@ var recipes = {}
   return object;
 }
  function deleteFromObjectByKey(object, key) {
-  var object = Object.assign({}, object)
+  var object2 = Object.assign({}, object)
   delete recipes.key
   return object
 }
